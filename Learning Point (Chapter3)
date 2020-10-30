@@ -1,0 +1,51 @@
+#include <iostream>
+using namespace std;
+
+//pointer&address
+/*
+// pass by value
+void multiply1(int n) {
+    n=n*2;
+}
+
+// pass by reference with pointer
+void multiply2(int *n) {
+    *n=*n*2;
+}
+
+// pass by reference with reference
+void multiply3(int &n) {
+    n=n*2;
+}
+int main() {
+    int a = 10;
+    int b = 10;
+    int c = 10;
+    
+    // call by value
+    multiply1(a);
+    cout << a << endl;
+    
+    // call by reference
+    multiply2(&b);
+    cout << b << endl;
+    
+    // call by reference
+    multiply3(c);
+    cout << c << endl;
+}
+*/
+
+//array
+/*
+int main () {
+    int arr [3] = {5,10,34};
+    int *ptr = arr;
+
+    cout << *ptr;
+    //ptr++;
+    ptr+=2;
+    cout << " " << *ptr;
+
+}
+*/
